@@ -10,12 +10,12 @@
     transition: 150ms ease background, 150ms ease box-shadow, 150ms ease color, 150ms ease border;
     cursor: pointer;
     padding: 8px 12px;
-    border: 2px solid rgba(255,255,255,.05);
+    border: 2px solid rgba(255, 255, 255, .05);
     color: var(--text-desc);
 }
 
 .btn:hover {
-    border: 2px solid rgba(255,255,255,.15);
+    border: 2px solid rgba(255, 255, 255, .15);
 }
 
 .btn span {

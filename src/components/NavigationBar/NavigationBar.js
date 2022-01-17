@@ -1,4 +1,5 @@
 import './NavigationBar.css';
+import smallLogo from '../../assets/BD.svg';
 import bigLogo from '../../assets/BetterDiscord.svg';
 
 function NavigationBar() {
@@ -6,6 +7,7 @@ function NavigationBar() {
     <div id="navbar" className="page-section flex-container align-center">
       <div id="navbar-inner">
         <a href='/'>
+          <img src={smallLogo} className="navbar-logo small" alt="" />
           <img src={bigLogo} className="navbar-logo" alt="" />
         </a>
         <div id="navbar-items">

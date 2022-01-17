@@ -37,3 +37,23 @@
     align-items: stretch;
     padding-top: 10px;
 }
+
+@media screen and (max-width: 950px) {
+    #hero-top-container {
+        padding: 0 8px;
+        height: auto;
+    }
+
+    .title {
+        font-size: 32px;
+    }
+    
+    .title-description {
+        font-size: 14px;
+    }
+
+    .page-section .page-section-inner {
+        padding: 0 8px;
+    }
+}
+

@@ -4,7 +4,7 @@ import thumbnail from '../../assets/thumbnail.svg';
 
 function AddonCard(props) {
     return (
-        <div className="addon-card">
+        <div className="addon-card" style={ props.imageUrl ? {"flex-direction": "column"} : null}>
             {
                 props.imageUrl && (
                     <img loading="lazy" onError={thumbnail} class="addon-card-image" src={props.imageUrl} alt={props.name} />
