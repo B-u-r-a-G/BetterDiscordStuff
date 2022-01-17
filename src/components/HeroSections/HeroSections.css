@@ -1,0 +1,39 @@
+.text-center { text-align: center; }
+
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.title-description {
+    color: var(--text-desc);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.75;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+#hero-top-container .btn-container .btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    width: 224px;
+}
+
+.addons-header.page-section .title { margin-right: 48px; }
+
+.page-section .page-section-inner {
+    max-width: 1280px;
+    width: 100%;
+    padding: 0 128px;
+    margin: 0 auto;
+}
+
+.addon-card-container {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    display: grid;
+    grid-gap: 20px;
+    align-items: stretch;
+    padding-top: 10px;
+}

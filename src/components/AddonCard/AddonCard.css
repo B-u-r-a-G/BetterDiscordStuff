@@ -1,0 +1,51 @@
+.addon-card-container .addon-card {
+    height: auto;
+    background-color: var(--bg3);
+    transition: 150ms ease;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 25%);
+    border-radius: 4px;
+}
+
+.addon-card-image {
+    width: 100%;
+    display: block;
+    position: relative;
+    background-color: var(--bg3);
+    height: 184px;
+    object-fit: cover;
+    -webkit-user-drag: none;
+}
+
+.addon-card-image[src*="thumbnail.svg"] { object-fit: contain; }
+
+.addon-card-inner {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.addon-card-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+
+.addon-card-description {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-desc);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 10px;
+}
+
+.addon-card-buttons {
+    margin-top: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

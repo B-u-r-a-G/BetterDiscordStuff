@@ -1,0 +1,43 @@
+.btn {
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 3px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: 150ms ease background, 150ms ease box-shadow, 150ms ease color, 150ms ease border;
+    cursor: pointer;
+    padding: 8px 12px;
+    border: 2px solid rgba(255,255,255,.05);
+    color: var(--text-desc);
+}
+
+.btn:hover {
+    border: 2px solid rgba(255,255,255,.15);
+}
+
+.btn span {
+    pointer-events: none;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.btn .btn-icon {
+    pointer-events: none;
+    margin-right: 10px;
+    fill: currentColor;
+    flex-shrink: 0;
+}
+
+.btn.btn-download {
+    background-color: var(--accent);
+    border-color: transparent;
+    color: var(--text-light);
+}
+
+.btn.btn-download:hover {
+    background-color: var(--accent-hover);
+}
