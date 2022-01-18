@@ -2,31 +2,31 @@
     {
         "name": "BetterInvites",
         "description": "Shows some useful information in the invitation",
-        "downloadUrl": "https://raw.githubusercontent.com/HypedDomi/BetterDiscordStuff/main/Plugins/BetterInvites/BetterInvites.plugin.js",
+        "downloadUrl": "/Plugins/BetterInvites/BetterInvites.plugin.js",
         "gitHubUrl": "https://github.com/HypedDomi/BetterDiscordStuff/tree/main/Plugins/BetterInvites"
     },
     {
         "name": "DownloadEmotes",
         "description": "Downloads all emotes from a guild and saves them in your download directory",
-        "downloadUrl": "https://raw.githubusercontent.com/HypedDomi/BetterDiscordStuff/main/Plugins/DownloadEmotes/DownloadEmotes.plugin.js",
+        "downloadUrl": "/Plugins/DownloadEmotes/DownloadEmotes.plugin.js",
         "gitHubUrl": "https://github.com/HypedDomi/BetterDiscordStuff/tree/main/Plugins/DownloadEmotes"
     },
     {
         "name": "QuickAddonDownloader",
         "description": "Allows you to download Addons from Chat directly to your Plugins or Themes folder",
-        "downloadUrl": "https://raw.githubusercontent.com/HypedDomi/BetterDiscordStuff/main/Plugins/QuickAddonDownloader/QuickAddonDownloader.plugin.js",
+        "downloadUrl": "/Plugins/QuickAddonDownloader/QuickAddonDownloader.plugin.js",
         "gitHubUrl": "https://github.com/HypedDomi/BetterDiscordStuff/tree/main/Plugins/QuickAddonDownloader"
     },
     {
         "name": "Someone",
         "description": "Brings back the @someone function",
-        "downloadUrl": "https://raw.githubusercontent.com/HypedDomi/BetterDiscordStuff/main/Plugins/Someone/Someone.plugin.js",
+        "downloadUrl": "/Plugins/Someone/Someone.plugin.js",
         "gitHubUrl": "https://github.com/HypedDomi/BetterDiscordStuff/tree/main/Plugins/Someone"
     },
     {
         "name": "ToggleAll",
         "description": "Toggles all Plugins or Themes",
-        "downloadUrl": "https://raw.githubusercontent.com/HypedDomi/BetterDiscordStuff/main/Plugins/ToggleAll/ToggleAll.plugin.js",
+        "downloadUrl": "/Plugins/ToggleAll/ToggleAll.plugin.js",
         "gitHubUrl": "https://github.com/HypedDomi/BetterDiscordStuff/tree/main/Plugins/ToggleAll"
     }
 ]
