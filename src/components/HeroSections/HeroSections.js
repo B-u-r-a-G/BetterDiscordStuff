@@ -2,8 +2,10 @@ import React from 'react';
 import './HeroSections.css';
 import { GitHubButton } from '../Buttons/Buttons.js';
 import AddonCard from '../AddonCard/AddonCard.js';
-import Plugins from '../../plugins.json';
-import Themes from '../../themes.json';
+import Addons from '../../addons.json';
+
+const Plugins = Addons.plugins;
+const Themes = Addons.themes;
 
 function IntroSection() {
     return (
