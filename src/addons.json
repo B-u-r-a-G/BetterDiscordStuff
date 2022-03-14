@@ -31,6 +31,12 @@
             "gitHubUrl": "https://github.com/HypedDomi/BetterDiscordStuff/tree/main/Plugins/QuickAddonDownloader"
         },
         {
+            "name": "ReplaceTimestamps",
+            "description": "Replaces plaintext 24 hour timestamps into Discord's timestamps",
+            "downloadUrl": "https://raw.githubusercontent.com/HypedDomi/BetterDiscordStuff/main/Plugins/ReplaceTimestamps/ReplaceTimestamps.plugin.js",
+            "gitHubUrl": "https://github.com/HypedDomi/BetterDiscordStuff/tree/main/Plugins/ReplaceTimestamps"
+        },
+        {
             "name": "Someone",
             "description": "Brings back the @someone function",
             "downloadUrl": "https://raw.githubusercontent.com/HypedDomi/BetterDiscordStuff/main/Plugins/Someone/Someone.plugin.js",
