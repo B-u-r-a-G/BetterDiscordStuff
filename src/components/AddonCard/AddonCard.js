@@ -7,7 +7,7 @@ function AddonCard(props) {
         <div className="addon-card" style={ props.imageUrl ? {"flex-direction": "column"} : null}>
             {
                 props.imageUrl && (
-                    <img loading="lazy" onError={thumbnail} class="addon-card-image" src={props.imageUrl} alt={props.name} />
+                    <img loading="lazy" onError={(e) => e.target.src = `${thumbnail}`} class="addon-card-image" src={props.imageUrl} alt={props.name} />
                 )
             }
             <div className="addon-card-inner">

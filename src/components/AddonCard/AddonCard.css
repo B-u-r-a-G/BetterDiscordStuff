@@ -19,7 +19,7 @@
     -webkit-user-drag: none;
 }
 
-.addon-card-image[src*="thumbnail.svg"] { object-fit: contain; }
+.addon-card-image[src*="thumbnail"] { object-fit: contain; }
 
 .addon-card-inner {
     display: flex;

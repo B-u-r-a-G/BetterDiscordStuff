@@ -1,8 +1,9 @@
 import './NavigationBar.css';
 import smallLogo from '../../assets/BD.svg';
 import bigLogo from '../../assets/BetterDiscord.svg';
+import { DiscordButton } from '../Buttons/Buttons';
 
-function NavigationBar() {
+export default function NavigationBar() {
   return (
     <div id="navbar" className="page-section flex-container align-center">
       <div id="navbar-inner">
@@ -13,6 +14,7 @@ function NavigationBar() {
         <div id="navbar-items">
           <NavigationItem text="Plugins" link="#plugins" />
           <NavigationItem text="Themes" link="#themes" />
+          <DiscordButton text="Discord" href="https://discord.gg/gp2ExK5vc7" />
         </div>
       </div>
     </div>
@@ -28,5 +30,3 @@ function NavigationItem(props) {
     </div>
   );
 }
-
-export default NavigationBar;
