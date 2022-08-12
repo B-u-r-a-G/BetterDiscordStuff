@@ -1,0 +1,12 @@
+{
+    "manifest-version": 1,
+    "name": "BetterInvites",
+    "author": "HypedDomi#1711",
+    "description": "Shows some useful information in the invitation",
+    "version": "1.6.2",
+    "authorId": "354191516979429376",
+    "invite": "gp2ExK5vc7",
+    "license": "MIT",
+    "source": "https://github.com/HypedDomi/BetterDiscordStuff/tree/velocity/BetterInvites",
+    "main": "./index.js"
+}
