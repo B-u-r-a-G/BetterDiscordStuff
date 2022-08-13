@@ -1,4 +1,5 @@
 const GLOBAL_NAME = "BetterInvites";
+const { WebpackModules, Patcher, React, Styling } = VApi;
 
 module.exports = {
     Plugin: new (class {
@@ -16,7 +17,6 @@ module.exports = {
             return this.GLOBAL_NAME;
         }
         onStart() {
-            const { WebpackModules, Patcher, React, Styling } = VApi;
             const Invite = WebpackModules.find(m => m.default?.displayName === "GuildInvite");
             const TooltipContainer = WebpackModules.findByProps('TooltipContainer').TooltipContainer;
 
